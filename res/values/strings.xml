@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Terminal UDP</string>
+    
+    <string name="ip_address">Endereco IP</string>
+    <string name="port">Porta</string>
+    <string name="send">Enviar</string>
+    <string name="payload">Conteudo</string>
+</resources>

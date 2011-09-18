@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="1">
+    <TextView android:id="@+id/textViewIp" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/ip_address"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editTextIp" android:inputType="text" android:layout_width="200dp">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textViewPorta" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/port"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editTextPorta" android:inputType="number" android:layout_width="60dp" android:layout_gravity="left"></EditText>
+    <TextView android:id="@+id/textViewPayload" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/payload"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editTextPayload" android:layout_width="200dp"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_gravity="right" android:text="@string/send" android:id="@+id/buttonSend" android:layout_weight="0.04" android:layout_width="100dp"></Button>
+</LinearLayout>
