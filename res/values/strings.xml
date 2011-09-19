@@ -3,8 +3,9 @@
     
     <string name="app_name">Terminal UDP</string>
     
-    <string name="ip_address">Endereco IP</string>
-    <string name="port">Porta</string>
+    <string name="localPort">Porta local</string>
+    <string name="ip_address">Endereco IP destino</string>
+    <string name="port">Porta destino</string>
     <string name="send">Enviar</string>
     <string name="payload">Conteudo</string>
 </resources>
